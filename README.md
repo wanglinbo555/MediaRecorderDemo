@@ -48,6 +48,7 @@ MediaRecorder开关来处理定时长存储文件，由于资源释放开启都�
 采用硬编码方式录像 mediacodec+GLSurfaceView+MediaMuxer
 
 ## 6.相关链接
+[https://blog.csdn.net/wang1lin2bo2/article/details/102400398](https://blog.csdn.net/wang1lin2bo2/article/details/102400398)
 
 
 
