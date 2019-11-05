@@ -22,13 +22,13 @@ public class CameraConstants {
     public final static int SUB_VIDEO_WIDTH = 480;//160;//480; 1024
     public final static int SUB_VIDEO_HIGTH = 320;//120;//288;  552
     public final static int SUB_BITRATE = 512;//单位K   *1024
-    public final static int SUB_FRAMERATE = 15;
+    public final static int SUB_FRAMERATE = 25;
 
     //录制 默认参数配置
     /**
      * 帧速率
      */
-    public final static int FRAMERATE = 20;
+    public final static int FRAMERATE = 25;
     /**
      * 码流率  数值*1024  单位K
      */
@@ -43,7 +43,7 @@ public class CameraConstants {
     public static final int StorageStreamType = 0x02;
     public static final int LiveStreamType = 0x01;
 
-    public final static int SDCard_MinSize = 6000;//M 14000
+    public final static int SDCard_MinSize = 600;//M 14000
 
     //摄像头资源释放
     public static final String KEY_CAMERA_RELEASE = "setprop persist.status.check 1";

@@ -91,7 +91,7 @@
         </LinearLayout>
     </LinearLayout>
 
- 
+
     <Button
         android:id="@+id/tv_close"
         android:layout_width="wrap_content"
@@ -127,4 +127,15 @@
         android:padding="10dp"
         android:text="结束录制"
         android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/tv_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:text="拍照"
+        android:textColor="#ffffff" />
+
 </FrameLayout>

@@ -23,8 +23,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service android:name=".MainService" />
+        <service android:name=".MediaRecorder.MainService" />
+        <service android:name=".PreviewCallBack.MainService2" />
+        <service android:name=".SurfaceRecord.MainService3" />
         <service android:name=".CleanSDService" />
+        <service android:name=".SurfaceView.MainService2" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -33,7 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".MainActivity2"/>
 
     </application>
 
